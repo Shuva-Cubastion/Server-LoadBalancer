@@ -1,6 +1,1 @@
-[submodule "nginx-load-balancer-shop"]
-	path = nginx-load-balancer-shop
-	url = git@github.com:Shuva-Cubastion/nginx-load-balancer-shop.git
-[submodule "apache-shop"]
-	path = apache-shop
-	url = git@github.com:Shuva-Cubastion/apache-shop.git
+
