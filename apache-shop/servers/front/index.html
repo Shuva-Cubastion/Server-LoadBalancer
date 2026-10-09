@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Shop (Apache)</title>
+  <style>
+    body { margin:0; min-height:100vh; display:flex; flex-direction:column;
+           align-items:center; justify-content:center; gap:32px;
+           font-family:Arial, sans-serif; background:#f4f6f8; color:#222; }
+    h1 { margin:0; font-size:2.2rem; }
+    p  { margin:0; color:#666; }
+    .buttons { display:flex; gap:24px; flex-wrap:wrap; justify-content:center; }
+    a.btn { display:block; padding:20px 48px; font-size:1.3rem; color:#fff;
+            text-decoration:none; border-radius:10px; box-shadow:0 3px 8px rgba(0,0,0,.2);
+            transition:transform .1s; }
+    a.btn:hover { transform:translateY(-3px); }
+    .cloth { background:#2e7d32; }
+    .shoes { background:#1565c0; }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Shop</h1>
+  <p>Choose a section</p>
+  <div class="buttons">
+    <a class="btn cloth" href="/cloth/">Cloth</a>
+    <a class="btn shoes" href="/shoes/">Shoes</a>
+  </div>
+</body>
+</html>
